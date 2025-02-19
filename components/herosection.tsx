@@ -51,7 +51,7 @@ export default function HeroSection() {
               >
                 <motion.div
                   whileHover={{ scale: 1.05 }}
-                  className="bg-zinc-900/50 rounded-3xl h-44 p-6 backdrop-blur-lg border border-white/10 transition-colors hover:border-white/20"
+                  className="bg-neutral-900/50 rounded-3xl h-44 p-6 backdrop-blur-lg border border-white/10 transition-colors hover:border-white/20"
                 >
                   <div className="mb-6 text-white/70 flex justify-center">{stat.icon}</div>
                   <motion.div
