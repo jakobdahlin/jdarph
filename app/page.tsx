@@ -1,6 +1,7 @@
-import HeroSection from "../components/herosection";
+import HeroSection from "@/components/herosection";
 import LicenseOptionsSection from "@/components/licensecard";
 import Image from "next/image";
+import LandingPage from "@/components/customsection";
 
 export default function Home() {
   return (
@@ -19,6 +20,16 @@ export default function Home() {
     />
     </div>
     <LicenseOptionsSection/>
+    <LandingPage
+  imageSrc="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739497948/IMG_1176_rkhaw2.jpg"
+  imageAlt="Beautiful Architecture"
+  title="Book a custom photoshoot"
+  description="Custom photography is tailored to your needs, starting with a consultation and a planned photoshoot. The images are captured to match your vision and delivered within 12 hours."
+  primaryButtonText="Get Started"
+  secondaryButtonText="Learn More"
+  onPrimaryClick={() => console.log("Primary Clicked")}
+  onSecondaryClick={() => console.log("Secondary Clicked")}
+/>
   </div>
 
 </main>
