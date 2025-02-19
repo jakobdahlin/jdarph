@@ -157,9 +157,9 @@ export default function ContactForm() {
               onChange={handleInputChange}
             >
               <option value="">Select license type</option>
-              <option value="personal">Personal</option>
-              <option value="commercial">Commercial</option>
-              <option value="editorial">Editorial</option>
+              <option value="standard">Standard</option>
+              <option value="extended">Extended</option>
+              <option value="exclusive">Exclusive</option>
             </select>
           </div>
         </>

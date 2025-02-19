@@ -83,16 +83,17 @@ export default function LicenseOptionsSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 flex-wrap">
           {licenseOptions.map((option, index) => (
             <motion.div
-              key={option.name}
-              variants={{
-                hidden: { opacity: 0, y: 20 },
-                visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: index * 0.1 } },
-              }}
-              initial="hidden"
-              animate={controls}
-              onHoverStart={() => setHoveredCard(index)}
-              onHoverEnd={() => setHoveredCard(null)}
-            >
+            key={option.name}
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: index * 0.1 } },
+            }}
+            initial="hidden"
+            animate={controls}
+            onHoverStart={() => setHoveredCard(index)}
+            onHoverEnd={() => setHoveredCard(null)}
+            className="sm:block md:opacity-0 md:hover:opacity-100 transition-opacity duration-300"
+          >
               <div
                 className={`relative h-full ${
                   hoveredCard === index ? "scale-105" : "scale-100"
