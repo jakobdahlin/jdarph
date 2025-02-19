@@ -2,12 +2,7 @@
 
 import React, { ReactNode } from "react";
 
-interface CardProps {
-  className?: string;
-  children?: ReactNode;
-}
-
-const Contactbutton: React.FC<CardProps> = ({ className, children }) => {
+const Contactbutton = () => {
   return (
     <div className="items-center relative z-10 flex justify-center mt-12">
       <a href="/contact">

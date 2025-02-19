@@ -47,9 +47,7 @@ export default function Navbar() {
 
 {/* Contact Button (Desktop only) */}
 <div className="hidden lg:flex items-center">
-  <Contactbutton>
-  <Link href="/contact" className="hover:text-neutral-600 transition-colors mx-10"/>
-  </Contactbutton>
+  <Contactbutton />
 </div>
 
         {/* Mobile Menu Toggle Button */}
