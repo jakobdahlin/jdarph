@@ -1,6 +1,7 @@
 import type React from "react"
 import { Metadata } from "next";
 import Menu from "../components/menu";
+import Footer from "../components/footer";
 import "./globals.css";
 
 
@@ -31,10 +32,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
+
     <html lang="en">
-      <body className="bg-neutral-900 text-white">
+      <body className="bg-neutral-900 text-white flex flex-col min-h-screen flex-grow">
         {/* Navbar */}
         <Menu />
         
@@ -42,6 +44,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className="mt-10"> {/* Adjust spacing based on Navbar height */}
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   )

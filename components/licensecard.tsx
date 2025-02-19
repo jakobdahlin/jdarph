@@ -60,7 +60,7 @@ export default function LicenseOptionsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-3xl font-bold mb-6">Simple and Transparent Licensing</h2>
-          <p className="text-xl text-neutral-500 max-w-3xl mx-auto">
+          <p className="text-lg md:text-lg text-neutral-500 max-w-3xl mx-auto">
             My photographs can be licensed under three different plans: a budget-friendly standard license, 
             an extended license for broader usage, and an exclusive rights purchase for complete control. 
             Explore the options to get the right level of access for your needs.

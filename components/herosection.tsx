@@ -34,7 +34,7 @@ export default function HeroSection() {
                 Architectural Photography
               </span>
             </h1>
-            <p className="text-xl md:text-2xl sm:text-md mb-8 text-neutral-500 max-w-3xl mx-auto">
+            <p className="text-lg md:text-lg mb-8 text-neutral-500 max-w-3xl mx-auto">
               Crafting unique beats that help artists stand out. From trap to lo-fi, find your perfect sound and take
               your music to the next level.
             </p>

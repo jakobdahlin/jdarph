@@ -23,7 +23,7 @@ export default function LandingPage({
   onSecondaryClick,
 }: LandingPageProps) {
   return (
-    <div className="min-h-screen text-white">
+    <div className="text-white">
       <div className="container mx-auto px-4 py-12 md:py-24">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2">
@@ -37,7 +37,7 @@ export default function LandingPage({
           </div>
           <div className="w-full md:w-1/2">
             <h1 className="text-3xl md:text-3xl font-bold mb-6">{title}</h1>
-            <p className="text-lg md:text-xl mb-8 text-neutral-600">{description}</p>
+            <p className="text-lg md:text-lg mb-8 text-neutral-600">{description}</p>
             <div className="space-y-4 sm:space-y-0 sm:space-x-4">
               <Contactbutton />
             </div>

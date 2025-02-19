@@ -24,11 +24,11 @@ const StandardButton = () => {
   "
 />
           <div
-            className="absolute inset-[1px] bg-neutral-950/70 rounded-full pointer-events-none 
+            className="absolute inset-[1px] bg-neutral-950/80 rounded-full pointer-events-none 
             transition-shadow duration-100 z-10"
           />
           <span className="transition-colors relative z-10 text-lg">
-            Contact
+          Learn more
           </span>
         </button>
       </a>
