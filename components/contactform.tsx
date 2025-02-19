@@ -5,7 +5,7 @@ import { useState } from "react";
 type FormType = "Licensing" | "Custom Photography" | "General";
 
 export default function ContactForm() {
-  const [formType, setFormType] = useState<FormType>("General");
+  const [formType, setFormType] = useState<FormType>("Licensing");
   const [formData, setFormData] = useState({
     name: "",
     company: "",
