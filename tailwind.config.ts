@@ -14,6 +14,9 @@ module.exports = {
 			responsive: 'clamp(0px, 1vw, 15px)',
 		  },
 	  extend: {
+		screens: {
+			"3xl": "3320px",
+		  },
 		colors: {
 		  border: "hsl(var(--border))",
 		  input: "hsl(var(--input))",

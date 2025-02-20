@@ -1,8 +1,6 @@
 import HeroSection from "@/components/herosection";
 import LicenseOptionsSection from "@/components/licensecard";
-import Image from "next/image";
 import LandingPage from "@/components/customsection";
-import InteriorGrid from "@/components/interiorgrid";
 import ImageSlider from "@/components/imageslider";
 
 const images = [
