@@ -3,6 +3,20 @@ import Image from "next/image";
 const images = [
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500221/JD__3382_x4xkjk.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500374/JD_2342_1_oy6bh8.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500104/IMG_9398_23_fcdqle.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500098/IMG_9309_evmev2.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499984/IMG_6625_mywhgk.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499895/IMG_3898-Pano_2_fomv3h.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499887/IMG_3846_em9vja.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739498844/IMG_2183_did6ul.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739498357/IMG_2088_bff9ug.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739498136/IMG_1378_qzguaw.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739497916/IMG_0408_s9t0i6.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739497912/IMG_0401_m4ymlx.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739497263/205Hudson_5th_23_x72qpj.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739497242/7F2A7332_l3sg27.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300989/jdimage13_i8ystj.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300987/jdarch19_jwm2ki.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499956/IMG_6319_v1g6ou.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500067/IMG_8400_e1dd6x.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499901/IMG_4011_ieol6s.jpg",
@@ -36,11 +50,12 @@ const images = [
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300985/jdarch7_gldxmf.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300989/jdimage15_ej4g07.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499844/IMG_2712_ESB2_kryu1z.jpg",
+  
 ];
 
 export default function MasonryGrid() {
   return (
-    <div className="xs:columns-2 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-5 2xl:columns-5 mx-2">
+    <div className="xs:columns-2 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-5 2xl:columns-5 mx-2 lg:mb-52">
       {images.map((src, index) => (
         <div key={index} className="relative break-inside-avoid">
           <Image
