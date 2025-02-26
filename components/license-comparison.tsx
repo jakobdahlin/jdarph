@@ -21,7 +21,7 @@ export default function LicenseComparison() {
             <thead>
     <tr className="border-b transition-colors border-neutral-800">
       <th className="h-12 px-6 align-middle font-bold text-lg text-muted-foreground bg-neutral-800/50 text-center w-1/4">
-        Usage & Rights
+        Usage
       </th>
       <th className="h-12 px-6 align-middle font-bold text-lg text-muted-foreground bg-neutral-800/50 text-center w-1/4 whitespace-nowrap">
         Standard License
