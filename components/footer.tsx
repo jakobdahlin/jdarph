@@ -45,7 +45,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Github className="w-6 h-6 mr-2 text-white" />
-                <Link href="https://github.com/jakobdahlin" className="hover:text-neutral-300">Instagram</Link>
+                <Link href="https://github.com/jakobdahlin" className="hover:text-neutral-300">Github</Link>
               </div>
               <div className="flex items-center">
                 <Link2 className="w-6 h-6 mr-2 text-white" />
