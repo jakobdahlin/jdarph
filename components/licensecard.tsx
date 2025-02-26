@@ -2,7 +2,7 @@
 
 import { useRef, useEffect } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
-import { Check, X, Tally1, Tally2, Tally3 } from "lucide-react";
+import { Check, X, Camera, Aperture, Zap } from "lucide-react";
 import StandardButton from "./standardbutton";
 import ExtendedButton from "./extendedbutton";
 import ExclusiveButton from "./exclusivebutton";
@@ -11,7 +11,7 @@ const licenseOptions = [
     {
       name: "Standard License",
       price: "$50 - $150",
-      icon: <Tally1 className="w-8 h-8" />,
+      icon: <Camera className="w-8 h-8 text-blue-500" />,
       features: ["Low-res images", "Websites", "Blogs", "Social Media"],
       notIncluded: ["High-res", "Full ownership rights"],
       button: <StandardButton />,
@@ -19,7 +19,7 @@ const licenseOptions = [
     {
       name: "Extended License",
       price: "$200 - $500",
-      icon: <Tally2 className="w-8 h-8" />,
+      icon: <Aperture className="w-8 h-8 text-fuchsia-600" />,
       features: ["High-res images", "Magazines", "Brochures", "Large scale marketing"],
       notIncluded: ["Full ownership rights"],
       popular: true,
@@ -28,7 +28,7 @@ const licenseOptions = [
     {
       name: "Exclusive License",
       price: "$1,000 - $5,000",
-      icon: <Tally3 className="w-8 h-8" />,
+      icon: <Zap className="w-8 h-8 text-green-500" />,
       features: ["High-res images", "Full ownership rights"],
       notIncluded: [],
       button: <ExclusiveButton />,
@@ -48,8 +48,8 @@ export default function LicenseOptionsSection() {
   }, [controls, inView]);
 
   return (
-    <section ref={ref} id="license-options" className="py-20 relative overflow-hidden">
-      <div className="container mx-auto px-4 relative">
+    <section ref={ref} id="license-options" className="py-20 relative overflow-hidden w-full max-w-6xl mx-auto">
+      <div className="container mx-auto  relative">
         <motion.div
           initial="hidden"
           animate={controls}

@@ -13,8 +13,8 @@ export default function EventGrid() {
           <Image
             src={src}
             alt={`Image ${index + 1}`}
-            width={500} // Keeps consistent width
-            height={0} // Auto height to maintain aspect ratio
+            width={1000}
+            height={0}
             className="w-full h-auto rounded-xl object-cover transition-transform mb-4 
       duration-200 transform hover:scale-95"
           />

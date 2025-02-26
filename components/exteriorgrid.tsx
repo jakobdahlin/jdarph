@@ -61,8 +61,8 @@ export default function MasonryGrid() {
           <Image
             src={src}
             alt={`Image ${index + 1}`}
-            width={500} // Keeps consistent width
-            height={0} // Auto height to maintain aspect ratio
+            width={1000}
+            height={0}
             className="w-full h-auto rounded-xl object-cover mb-6 transition-transform 
       duration-200 transform hover:scale-95"
           />

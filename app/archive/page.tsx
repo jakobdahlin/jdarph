@@ -2,7 +2,7 @@ import InteriorGrid from "@/components/interiorgrid";
 import ExteriorGrid from "@/components/exteriorgrid";
 import CityscapeGrid from "@/components/cityscapegrid";
 
-export default function Home() {
+export default function About() {
   return (
 
 <main className="text-center flex flex-col items-center 

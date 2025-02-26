@@ -2,7 +2,6 @@ import HeroSection from "@/components/herosection";
 import LicenseOptionsSection from "@/components/licensecard";
 import LandingPage from "@/components/customsection";
 import ImageSlider from "@/components/imageslider";
-import ContactForm from '@/components/contactform';
 
 const images = [
   { src: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739497267/bg_centralpark_xhwpzq.jpg", alt: "Image 1" },
@@ -36,9 +35,6 @@ export default function Home() {
   onPrimaryClick={() => console.log("Primary Clicked")}
   onSecondaryClick={() => console.log("Secondary Clicked")}
 />
-  </div>
-  <div className="w-full max-w-screen-xl mx-auto px-4 mb-10">
-    <ContactForm />
   </div>
 </main>
   );

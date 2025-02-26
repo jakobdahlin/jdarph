@@ -27,7 +27,7 @@ const ExclusiveButton = () => {
             transition-shadow duration-100 z-10"
           />
           <span className="transition-colors relative z-10 text-md">
-          Learn more
+          Get Started
           </span>
         </button>
       </a>
