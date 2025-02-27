@@ -2,7 +2,7 @@ import { Check, X } from "lucide-react"
 
 export default function LicenseComparison() {
   const features = [
-    { name: "Low-res images", standard: true, extended: true, exclusive: true },
+    { name: "Low-res images", standard: true, extended: false, exclusive: false },
     { name: "High-res images", standard: false, extended: true, exclusive: true },
     { name: "Websites", standard: true, extended: true, exclusive: true },
     { name: "Blogs", standard: true, extended: true, exclusive: true },
