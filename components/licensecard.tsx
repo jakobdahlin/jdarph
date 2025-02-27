@@ -11,7 +11,7 @@ const licenseOptions = [
     {
       name: "Standard License",
       price: "$50 - $150",
-      icon: <Camera className="w-8 h-8 text-blue-500" />,
+      icon: <Camera className="w-8 h-8 text-neutral-500" />,
       features: ["Low-res images", "Websites", "Blogs", "Social Media"],
       notIncluded: ["High-res", "Full ownership rights"],
       button: <StandardButton />,
@@ -19,7 +19,7 @@ const licenseOptions = [
     {
       name: "Extended License",
       price: "$200 - $500",
-      icon: <Aperture className="w-8 h-8 text-fuchsia-600" />,
+      icon: <Aperture className="w-8 h-8 text-neutral-500" />,
       features: ["High-res images", "Magazines", "Brochures", "Large scale marketing"],
       notIncluded: ["Full ownership rights"],
       popular: true,
@@ -28,7 +28,7 @@ const licenseOptions = [
     {
       name: "Exclusive License",
       price: "$1,000 - $5,000",
-      icon: <Zap className="w-8 h-8 text-green-500" />,
+      icon: <Zap className="w-8 h-8 text-neutral-500" />,
       features: ["High-res images", "Full ownership rights"],
       notIncluded: [],
       button: <ExclusiveButton />,
@@ -49,7 +49,7 @@ export default function LicenseOptionsSection() {
 
   return (
     <section ref={ref} id="license-options" className="py-20 relative overflow-hidden w-full max-w-6xl mx-auto">
-      <div className="container mx-auto  relative">
+      <div className="container mx-auto  relative ">
         <motion.div
           initial="hidden"
           animate={controls}
@@ -83,7 +83,7 @@ export default function LicenseOptionsSection() {
              border border-neutral-800 text-white shadow-lg
              h-full flex flex-col 
              bg-gradient-to-t from-neutral-950/30 via-neutral-900/60 to-neutral-950/30
-             backdrop-blur-lg border-white/10 hover:border-white/20
+             backdrop-blur-lg border-white/10 lg:hover:border-white/20
              group transition-transform duration-300">
              
              {/* Top Section */}
