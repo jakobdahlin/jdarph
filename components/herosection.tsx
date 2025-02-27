@@ -9,7 +9,7 @@ export default function HeroSection() {
 
   const stats = [
     { icon: <Camera className="w-8 h-8" />, label: "photos captured", value: "250,000+" },
-    { icon: <Ruler className="w-8 h-8" />, label: "sqft covered", value: "1,000,000+" },
+    { icon: <Ruler className="w-8 h-8" />, label: "Sqft covered", value: "1,000,000+" },
     { icon: <Crown className="w-8 h-8" />, label: "Empire State Building photo contest", value: "Finalist" },
     { icon: <Tv className="w-8 h-8" />, label: "on Million Dollar Listing: New York", value: "Featured" },
   ]
@@ -20,7 +20,7 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="relative pt-32 pb-2 px-4"
+        className="relative pt-32 pb-2"
       >
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -35,12 +35,11 @@ export default function HeroSection() {
               </span>
             </h1>
             <p className="text-lg md:text-lg mb-8 text-neutral-500 max-w-3xl mx-auto">
-              Crafting unique beats that help artists stand out. From trap to lo-fi, find your perfect sound and take
-              your music to the next level.
+            Bringing New York's architecture to life through photography since 2015, capturing the city's evolving skyline, iconic landmarks, and hidden architectural gems with precision and artistry.
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}

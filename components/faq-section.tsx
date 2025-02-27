@@ -56,7 +56,7 @@ export default function FAQSection() {
           className="border rounded-xl border-neutral-800"
         >
           <CollapsibleTrigger asChild>
-            <Button variant="ghost" className="flex items-center justify-between w-full p-4 text-left">
+            <Button variant="ghost" className="flex items-center justify-between w-full py-8 text-left">
               <span className="font-bold text-lg">{item.question}</span>
               <ChevronDown
                 className={`w-6 h-6 transition-transform duration-200 ${

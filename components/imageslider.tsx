@@ -28,7 +28,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
   }
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto h-64 sm:h-96 overflow-hidden rounded-3xl">
+    <div className="relative w-full max-w-6xl h-64 sm:h-96 overflow-hidden rounded-3xl">
       <AnimatePresence initial={false}>
         <motion.div
           key={currentIndex}
@@ -43,7 +43,6 @@ export default function ImageSlider({ images }: ImageSliderProps) {
             alt={images[currentIndex].alt}
             fill
             style={{ objectFit: "cover" }}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority
           />
         </motion.div>

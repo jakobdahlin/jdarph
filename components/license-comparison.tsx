@@ -13,7 +13,8 @@ export default function LicenseComparison() {
   ]
 
   return (
-    <div className="p-4">
+    <div className="">
+      <h2 className="text-2xl font-bold mb-6">Compare licenses</h2>
       <div className="rounded-xl border border-neutral-800 bg-card w-full max-w-6xl mx-auto space-y-4
       text-card-foreground shadow-sm overflow-hidden">
         <div className="overflow-x-auto ">
@@ -24,13 +25,13 @@ export default function LicenseComparison() {
         Usage
       </th>
       <th className="h-12 px-6 align-middle font-bold text-lg text-muted-foreground bg-neutral-800/50 text-center w-1/4 whitespace-nowrap">
-        Standard License
+        Standard
       </th>
       <th className="h-12 px-6 align-middle font-bold text-lg text-muted-foreground bg-neutral-800/50 text-center w-1/4 whitespace-nowrap">
-        Extended License
+        Extended
       </th>
       <th className="h-12 px-6 align-middle font-bold text-lg text-muted-foreground bg-neutral-800/50 text-center w-1/4 whitespace-nowrap">
-        Exclusive License
+        Exclusive
       </th>
     </tr>
   </thead>

@@ -24,7 +24,7 @@ export default function LandingPage({
 }: LandingPageProps) {
   return (
     <div className="text-white">
-      <div className="container mx-auto px-4 py-12 md:py-24">
+      <div className="container mx-auto py-12 md:py-24">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2">
             <Image

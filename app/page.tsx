@@ -16,7 +16,7 @@ export default function Home() {
 
   <div className="w-full max-w-screen-xl mx-auto px-4 mb-10">
     <HeroSection/>
-    <div className="max-w-6xl mx-4 mt-14">
+    <div className="max-w-6xl mt-14">
     <ImageSlider images={images} />
     </div>
     <LicenseOptionsSection/>
