@@ -7,7 +7,7 @@ const Contactbutton = () => {
     <div className="items-center relative z-10 flex justify-center mt-12">
       <a href="/contact">
         <button
-          className="relative cursor-pointer rounded-full px-10 mb-10  
+          className="relative cursor-pointer rounded-xl px-10 mb-10  
       py-3 bg-neutral-800 hover:text-neutral-300 active:text-white
       overflow-hidden group transition-transform 
       duration-100 transform hover:scale-95 
@@ -27,13 +27,13 @@ const Contactbutton = () => {
             `,
             }}
             className="
-          absolute inset-0 rounded-full transition-all duration-100
+          absolute inset-0 rounded-xl transition-all duration-100
           bg-[linear-gradient(145deg,_rgba(100,100,100,1),_rgba(50,50,50,1),_rgba(38,38,38,1))] 
           group-hover:bg-[linear-gradient(90deg,_rgba(0,255,0,0.8),_rgba(255,0,0,0.8),_rgba(0,0,255,0.8))]
           "
           />
           <div
-            className="absolute inset-[1px] bg-neutral-900 rounded-full pointer-events-none 
+            className="absolute inset-[1px] bg-neutral-900 rounded-xl pointer-events-none 
             transition-shadow duration-100 z-10"
           />
           <span className="transition-colors relative z-10 text-lg">

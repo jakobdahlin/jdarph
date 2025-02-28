@@ -1,10 +1,8 @@
-import Image from "next/image"
+import Image from "next/image";
 
-export default function Article() {
+export default function RealEstateVsArchitectural() {
   return (
     <article className="container mx-auto px-6 py-8 max-w-6xl text-neutral-500">
-        
-      <h1 className="text-4xl font-bold mb-6">Real estate vs. architectural photography: What is the difference?</h1>
 
       <p className="text-lg mb-8">
         At first glance, these two may appear similar, but they serve different purposes and require unique approaches.
@@ -20,7 +18,7 @@ export default function Article() {
           alt="Real Estate Photography Example"
           width={2000}
           height={600}
-          className="mb-6"
+          className="mb-6 w-full aspect-[16/9] object-cover"
         />
         <h3 className="text-2xl font-medium mb-2">The art of visual storytelling</h3>
         <p className="mb-4">
@@ -53,7 +51,7 @@ export default function Article() {
           alt="Architectural Photography Example"
           width={2000}
           height={600}
-          className="mb-6"
+          className="mb-6 w-full aspect-[16/9] object-cover"
         />
         <h3 className="text-2xl font-medium mb-2">Beauty and design</h3>
         <p className="mb-4">
@@ -114,7 +112,7 @@ export default function Article() {
           alt="View of Central Park"
           width={2000}
           height={600}
-          className="mb-6"
+          className="mb-6 w-full aspect-[16/9] object-cover"
         />
         <div className="space-y-6">
           <div>

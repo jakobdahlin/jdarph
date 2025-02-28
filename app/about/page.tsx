@@ -13,7 +13,7 @@ export default function AboutMe() {
             className="mx-auto rounded-full border-4 border-white shadow-lg"
           />
           <h1 className="mt-6 text-4xl font-bold text-white">Jakob Dahlin</h1>
-          <p className="mt-2 text-xl text-neutral-500">Renowned architectural photographer in New York City</p>
+          <p className="mt-2 text-xl text-neutral-500">New York's Top Architectural Photographer</p>
         </div>
 
         <div className="mt-12 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-12">

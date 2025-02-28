@@ -1,14 +1,13 @@
-import Link from "next/link"
+import Link from "next/link";
 
-interface PostCardProps {
-  title: string
-  excerpt: string
-  slug: string
-  coverImage: string
-}
+export default function PostCard({ title, excerpt, slug, category, coverImage }: { 
+  title: string; 
+  excerpt: string; 
+  slug: string; 
+  category: string;
+  coverImage: string; 
+}) {
 
-export function PostCard({ title, excerpt, slug, coverImage }: 
-  { title: string; excerpt: string; slug: string; coverImage: string }) {
   return (
 <div className="border border-neutral-700 rounded-3xl bg-neutral-900/50 
 overflow-hidden shadow-xl flex flex-col h-full">
@@ -19,7 +18,7 @@ overflow-hidden shadow-xl flex flex-col h-full">
     <p className="text-neutral-500 mb-4 flex-grow">{excerpt}</p>
 
     <div className="items-center relative z-10 flex justify-center mt-12">
-      <Link href={`/blog/${slug}`} className="relative w-full mx-auto justify-center items-center">
+    <Link href={slug} className="relative w-full mx-auto justify-center items-center">
       <button
   className="relative cursor-pointer w-full h-full rounded-xl 
       py-3 bg-neutral-900 hover:text-neutral-300 active:text-white
