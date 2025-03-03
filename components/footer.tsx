@@ -53,7 +53,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Mail className="w-6 h-6 mr-2 text-white" />
-                <Link href="/archive" className="hover:text-neutral-300">Email</Link>
+                <Link href="/contact" className="hover:text-neutral-300">Email</Link>
               </div>
             </div>
           </div>

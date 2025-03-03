@@ -2,6 +2,7 @@ import type React from "react"
 import { Metadata } from "next";
 import Menu from "../components/menu";
 import Footer from "../components/footer";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 
@@ -36,6 +37,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
 
     <html lang="en">
+      <Analytics/>
       <body className="bg-neutral-900 text-white flex flex-col min-h-screen flex-grow">
         {/* Navbar */}
         <Menu />
