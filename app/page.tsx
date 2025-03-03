@@ -11,12 +11,10 @@ const images = [
 
 export default function Home() {
   return (
-
 <main className="text-center flex flex-col items-center justify-center">
-
   <div className="w-full max-w-screen-xl mx-auto px-4 mb-10">
     <HeroSection/>
-    <div className="max-w-6xl mt-14">
+    <div className="max-w-6xl mt-14 mx-auto items-center justify-center">
     <ImageSlider images={images} />
     </div>
     <LicenseOptionsSection/>
