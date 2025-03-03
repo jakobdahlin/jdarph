@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Github, Linkedin, Instagram, Link2, Mail } from 'lucide-react';
 
 const currentYear = new Date().getFullYear();
@@ -59,11 +60,13 @@ export default function Footer() {
           </div>
 
           <div>
-            <img 
-              src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500054/IMG_7681_12_shkwtg.jpg" 
-              alt="jakob-dahlin-logo" 
-              className="w-auto h-60 mb-6 rounded-xl" 
-            />
+          <Image
+            src="https://i.ibb.co/QvVx3JR8/JDPortrait.jpg"
+            alt="Jakob Dahlin"
+            width={200}
+            height={200}
+            className="mx-auto rounded-full border-4 border-white shadow-2xl shadow-black"
+          />
           </div>
         </div>
 

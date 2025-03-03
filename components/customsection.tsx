@@ -31,13 +31,13 @@ export default function LandingPage({
               src={imageSrc || "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739497948/IMG_1176_rkhaw2.jpg"}
               alt={imageAlt}
               width={300}
-              height={200}
+              height={400}
               className="rounded-3xl object-cover w-full h-auto"
             />
           </div>
           <div className="w-full md:w-1/2">
             <h1 className="text-3xl md:text-3xl font-bold mb-6">{title}</h1>
-            <p className="text-lg md:text-lg mb-8 text-neutral-600">{description}</p>
+            <p className="text-lg md:text-lg mb-8 text-neutral-600 text-left">{description}</p>
             <div className="space-y-4 sm:space-y-0 sm:space-x-4">
               <Contactbutton />
             </div>

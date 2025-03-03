@@ -19,7 +19,8 @@ export default function Navbar() {
             <img
               src="https://i.ibb.co/fzWckJHf/JAKOBLOGO.png"
               alt="jakob-dahlin-logo"
-              className="w-44 h-auto rounded-lg"
+              className="w-44 h-auto rounded-lg transition-transform 
+      duration-100 transform lg:hover:scale-95 "
             />
           </Link>
         </div>

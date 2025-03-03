@@ -20,14 +20,14 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="relative pt-32 pb-2"
+        className="relative pt-16 pb-2"
       >
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center mb-32"
+            className="text-center mb-14"
           >
             <h1 className="text-5xl md:text-4xl sm:text-3xl font-bold mb-6 relative">
               <span className="text-responsive bg-clip-text text-white">
@@ -39,7 +39,7 @@ export default function HeroSection() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}

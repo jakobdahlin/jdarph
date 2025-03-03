@@ -8,9 +8,9 @@ export default function AboutMe() {
           <Image
             src="https://i.ibb.co/QvVx3JR8/JDPortrait.jpg"
             alt="Jakob Dahlin"
-            width={200}
-            height={200}
-            className="mx-auto rounded-full border-4 border-white shadow-lg"
+            width={300}
+            height={300}
+            className="mx-auto rounded-full border-4 border-white shadow-2xl shadow-black"
           />
           <h1 className="mt-6 text-4xl font-bold text-white">Jakob Dahlin</h1>
           <p className="mt-2 text-xl text-neutral-500">New York's Top Architectural Photographer</p>

@@ -4,9 +4,11 @@ import LandingPage from "@/components/customsection";
 import ImageSlider from "@/components/imageslider";
 
 const images = [
-  { src: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739497267/bg_centralpark_xhwpzq.jpg", alt: "Image 1" },
-  { src: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500368/JD_0015_lw66td.jpg", alt: "Image 2" },
-  { src: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500338/JD__9054_aqh52m.jpg", alt: "Image 3" },
+  { src: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500359/JD__9394_uwfpkg.jpg", alt: "Image 1" },
+  { src: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500031/IMG_6819_nga12r.jpg", alt: "Image 2" },
+  { src: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500117/JD__0052_nm3qjz.jpg", alt: "Image 3" },
+  { src: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499843/IMG_2675-HDR-1_qkdnrf.jpg", alt: "Image 4" },
+  { src: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739498129/IMG_1320_bio8cl.jpg", alt: "Image 5" },
 ]
 
 export default function Home() {

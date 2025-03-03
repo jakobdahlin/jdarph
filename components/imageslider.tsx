@@ -19,14 +19,6 @@ export default function ImageSlider({ images }: ImageSliderProps) {
     return () => clearInterval(timer)
   }, [images.length])
 
-  const goToPrevious = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
-  }
-
-  const goToNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
-  }
-
   return (
     <div className="relative w-full max-w-6xl h-64 sm:h-96 overflow-hidden rounded-3xl">
       <AnimatePresence initial={false}>
@@ -35,7 +27,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 3 }} // Slow fade transition
+          transition={{ duration: 4 }} // Slow fade transition
           className="absolute inset-0"
         >
           <Image
