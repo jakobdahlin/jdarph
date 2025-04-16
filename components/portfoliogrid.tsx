@@ -111,10 +111,19 @@ export default function PortfolioGrid() {
       </div>
 
       {!img.available && (
-        <div className="absolute top-2 z-50 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full shadow">
-          In contract
-        </div>
-      )}
+  <div className="absolute inset-0 group">
+    <div className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded shadow z-10">
+      In contract
+    </div>
+
+    {/* Tooltip */}
+    <div className="absolute bottom-2 left-2 z-50 hidden group-hover:block">
+      <div className="bg-black/80 backdrop-blur-md text-white text-xs px-3 py-1 rounded shadow  group-hover:scale-110 transition-transform">
+        Ask for availability
+      </div>
+    </div>
+  </div>
+)}
     </div>
   </div>
 ))}
