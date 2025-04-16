@@ -38,11 +38,6 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/blog" className="hover:text-neutral-600 transition-colors mx-10">
-              Blog
-            </Link>
-          </li>
-          <li>
             <Link href="/about" className="hover:text-neutral-600 transition-colors mx-10">
               About
             </Link>
@@ -71,9 +66,6 @@ export default function Navbar() {
         </Link>
         <Link href="/license" className="transition-colors mx-10 py-2" onClick={() => setIsOpen(false)}>
           License
-        </Link>
-        <Link href="/blog" className="transition-colors mx-10 py-2" onClick={() => setIsOpen(false)}>
-          Blog
         </Link>
         <Link href="/about" className="transition-colors mx-10 py-2" onClick={() => setIsOpen(false)}>
           About
